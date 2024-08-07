@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# @Time    : 2024/8/7 下午2:52
+# @Author  : 杨茜
+# @FileName: MartixCaculator.py
+# @Software: PyCharm
+
 import sys
 import threading
 import socket
