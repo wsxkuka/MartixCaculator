@@ -355,7 +355,7 @@ class MartixCaculator(QWidget, Ui_Form):
         """夹爪矩阵计算按钮"""
         offset_value = None
         if self.tw_pinch.rowCount() < 4:
-            QtWidgets.QMessageBox.warning(self, "警告", "您未采集满4组数据！请继续采集", )
+            QtWidgets.QMessageBox.warning(self, "警告", "您未采集满4组数据!请继续采集", )
             return
 
         pinch_pos_list = [eval(self.tw_pinch.item(i, 0).text()) for i in range(4)]
